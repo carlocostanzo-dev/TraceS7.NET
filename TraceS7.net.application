@@ -8,13 +8,13 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="file://atopspa.wan/dfs/Temp/CarloCostanzo/TraceS7.Net/TraceS7.net.application" />
+    <deploymentProvider codebase="https://raw.githubusercontent.com/carlocostanzo-dev/TraceS7.NET/main/TraceS7.net.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\TraceS7.net_1_0_2_40\TraceS7.net.exe.manifest" size="61227">
+    <dependentAssembly dependencyType="install" codebase="https://raw.githubusercontent.com/carlocostanzo-dev/TraceS7.NET/main/TraceS7.net_1_0_2_40/TraceS7.net.exe.manifest" size="61227">
       <assemblyIdentity name="TraceS7.net.exe" version="1.0.2.40" publicKeyToken="79c0b36b05c10201" language="it-IT" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
