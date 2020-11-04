@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="TraceS7.net.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <TraceS7.net.Properties.Settings>
+            <setting name="ConnectionIP" serializeAs="String">
+                <value>192.168.1.1</value>
+            </setting>
+            <setting name="ConnectionType" serializeAs="String">
+                <value>TCP</value>
+            </setting>
+            <setting name="MPIAddress" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="RackNo" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="SlotNo" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="IBHSelected" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MessageFile" serializeAs="String">
+                <value>\\atopspa.wan\dfs\temp\carlocostanzo\TraceS7.net\Message.txt</value>
+            </setting>
+            <setting name="EditorPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="WinMergePath" serializeAs="String">
+                <value />
+            </setting>
+        </TraceS7.net.Properties.Settings>
+    </userSettings>
+</configuration>
